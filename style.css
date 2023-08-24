@@ -12,9 +12,8 @@
   font-size: 62.5%;
   --font-: 'Mulish', sans-serif;
   --color-pink:#B52184;
-  --color-blue:#312D64;
-  --background-light:#F9F4FB;
-  --background-white: #fff;
+  --color-light:#b9b8c0;
+  --background-dark:#131213;
   --back-linear:linear-gradient(90deg, rgba(51,45,144,1) 6%, rgba(18,7,29,1) 58%, rgba(100,25,102,0.9976365546218487) 75%);;
 }
 
@@ -53,7 +52,7 @@ margin-bottom: 1.5rem;
 }
 
 #hero .hero-text p{
-color: var(--color-blue);
+color: var(--color-light);
 font-size: 2rem;
 font-weight: 600;
 line-height: 2.5rem;
@@ -61,7 +60,7 @@ margin-bottom: 3.5rem;
 }
 
 p{
-color: var(--color-blue);
+color: var(--color-light);
 font-size: 1.6rem;
 font-weight: 600;
 line-height: 2rem;
@@ -87,7 +86,7 @@ line-height: 2rem;
 }
 
 #hero{
-  background: var(--background-light);
+  background: var(--background-dark);
   padding: 0 3.4rem 9.3rem 3.2rem;
 }
 
@@ -122,7 +121,7 @@ background: linear-gradient(90deg, rgba(51,45,144,1) 6%, rgba(18,7,29,1) 58%, rg
 }
 
 #cards .card{
-  background: var(--background-white);
+  background: var(--background-dark);
   border-radius: 1.9rem;
   padding: 2.6rem 5.9rem 2.6rem 2.6rem;
 }
@@ -137,6 +136,7 @@ margin-bottom: 3.3rem;
 
 #contact{
   padding: 7.8rem 3.9rem 6.5rem 4rem;
+  background: var(--background-dark);
 }
 
 fieldset{
@@ -165,14 +165,14 @@ input, textarea{
   font-size: 1.6rem;
   font-weight: 600;
   font-family: var(--font-);
-  color: var(--color-blue);
+  color: var(--color-light);
 }
 
 input::placeholder, textarea::placeholder{
   font-size: 1.6rem;
   font-weight: 600;
   font-family: var(--font-);
-  color: var(--color-blue);
+  color: var(--color-light);
 }
 
  #contact fieldset{
@@ -188,7 +188,7 @@ input::placeholder, textarea::placeholder{
   border: none;
  background: rgb(51,45,144);
  background: linear-gradient(90deg, rgba(51,45,144,1) 6%, rgba(18,7,29,1) 58%, rgba(100,25,102,0.9976365546218487) 75%);
-  color:var(--background-white);
+  color:var(--color-light);
  }
 
  .input-wrapper #name{
@@ -213,7 +213,7 @@ input::placeholder, textarea::placeholder{
   background: rgb(51,45,144);
 background: linear-gradient(90deg, rgba(51,45,144,1) 6%, rgba(18,7,29,1) 58%, rgba(100,25,102,0.9976365546218487) 75%);
   padding: 3.2rem 1.6rem;
-  color: var(--background-white);
+  color: var(--color-light);
   font-size: 1.9rem;
   font-weight: 600;
   line-height: 2.4rem;  
